@@ -1,401 +1,462 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAREER</title>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-</head>
-<body>
-    <header>
-        <div id="mobile_nav">
-            <a href=""><i class="fas fa-bars fa-1x"></i></a>
-            <a href="index.html"><img src="images\kfc.jpeg" alt="kfc"></a>
-            <a href="cart.html"><i class="fas fa-shopping-bag fa-1x "></i></a>
-        </div>
-        <div class="nav-top">
-            <img src="images\nav.jpeg" alt="lines">
-        </div>
-        <nav>
-            <div class="box1_5">
-                <a href="index.html"><img class="img_align" src="images\nav1.jpeg" alt="chicken"></a>
-                <a href="homepage.html">Menu</a>
-                <a href="career.html">Careers</a>
-                <a href="About.html">About</a>
-                <a href="findkfc.html">Find a KFC®</a>
-            </div>
-            <div class="box22_5">
-                <a href="homepage.html" id="btn_property"><button id="btn-class">Start Order</button></a>
-                <a href="login.html" id="account_id"><i class="fas fa-user-circle fa-2x icon-border fas_size"></i></a>
-                <a href="cart.html" id="cart_id"> <i class="fas fa-shopping-bag fa-2x "></i></a>
-            </div>
-        </nav>
-        <div class="nav-bottom">
-            <div class="location"><i class="fas fa-map-marker-alt"></i></div>
-            <div class="para">Start an Order for Pickup or Delivery</div>
-            <a href=""><i class="fas fa-caret-down"></i></a>
-        </div>
-    </header>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
+* {
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career section</title>
-    <link rel="stylesheet" href="career.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        <!-- <link rel="stylesheet" href="nav.css"> -->
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+     margin: 0;
+     padding : 0;
+     font-family: Arial, Helvetica, sans-serif;
 
-</head>
+  }
+  /* -------------------------------------------------------------------------------------------------------main content */
 
-<body>
-    <!-- <div id="container2">
-        <div class="box2_1"> <i class="fas fa-map-marker-alt" style="color: red;"></i> Start an Order Pickup or Delivery
-        </div> -->
+  #container2 {
+               margin: auto;
+               border : 1px solid rgb(241, 234, 234);
+               width: 100%;
+  }
 
-        <div class="box2_2">
-            <div id="text2">
-                <h1>JOIN OUR KFC FAMILY</h1><br>
-                You can start searching for jobs on the map below or scroll
-                to learn more about working at <br> kfc.
-            </div>
-        </div>
+   .box2_1{
+            background-color: #202124;
+            /* border : 1px solid green; */
+            width: 100%;
+            height: 40px;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+   }
 
-        <div class="box2_3">
-            <div class="left2"> EXPLORE KFC CAREERS </div>
-            <div class="right2">
-                <div> <a href="https://www.kfc.com/careers">Join the Family</a> </div>
-                <div> <a href="https://www.kfc.com/careers/culture">Our Culture</a></div>
-                <div> <a href="https://www.kfc.com/careers/restaurant-career-growth">Restaurant Career Growth</a></div>
-                <div> <a href="https://www.kfc.com/careers/corporate">Corporate Careers</a></div>
-                <div> <a href="https://www.kfc.com/careers/search">Search Jobs</a></div>
+   .box2_2{
+           border : 1px solid black;
+           width: 100%;
+           height: 400px;
+           background-image: url("https://images.ctfassets.net/9tka4b3550oc/5tRiGfQXCdlrlRXDVPWdYT/79fca81cf69dad4129d7f6c0e9c873f9/hero-careers.jpg?w=1900");
+           color: black;
+           font-weight: bolder;
+           opacity: 85%;
+           text-align: center;
+          }
+  #text2 {
+           margin-top: 150px;
+  }
+ #text2 > h1{
+    font-size: 40px;
+  }
 
-            </div>
-        </div>
+ .box2_3{
+            background-color: #202124;
+            /* border: 1px solid gold; */
+            width: 100%;
+            height: 40px;
+            color: white;
+            display : flex;
+            justify-content: space-between;
+            padding:20px 0 0 0px;
+          }
+   a{
+       color:white;
+   }
+  .left2{
+        /* border: 1px solid green; */
+        width: 50%;
+        text-align: center;
+       }
+  .right2{
+      /* border: 1px solid green; */
+      display:flex;
+      justify-content: space-around;
+      width: 50%;
+      margin-right: 300px;
 
-        <div class="box2_4">
-            <div id="box2_4_1">
-                <img src="images\line.PNG" alt="" />
-                <br><br>
-                BROWSE KFC <br>
-                OPPORTUNITIES IN YOUR <br> AREA: <br><br>
-                <select id="country" name="country">
-                    <option value="--">All Position</option>
-                    <option value="India">India</option>
-                    <option value="US">US</option>
-                    <option value="China">China</option>
-                    <option value="Nepal">Nepal</option>
-                </select><br><br>
-                <!-- <i class="fas fa-map-marker-alt" style="color: red;"></i> -->
-                <input type="text" id="add" placeholder="SAINTPETERS, MO 63376" />
-                <br><br>
-                <input type="submit" id="submit" value="Submit">
-            </div>
-        </div>
+  }
 
-        <div class="box2_5">
-            <div id="box2_5_mini_1">
-                <h4>READY TO APPLY?</h4><br>
-                <h1>CHOOSE A RESTAUTANT</h1>
-            </div>
-            <div id="box2_5_mini_2">
-                <div id="box2_5_mini_2_1">
-                    <div>
-                        <h5>TEAM MEMBER</h5> <br>
-                        <h2>Cook</h2>
-                    </div>
-                </div>
-                <div id="box2_5_mini_2_2">
-                    <div>
-                        <h5>TEAM MEMBER</h5> <br>
-                        <h2>CUSTOMER SERVICE</h2>
-                    </div>
-                </div>
-                <div id="box2_5_mini_2_3">
-                    <div>
-                        <h5>SUPERVISOR</h5> <br>
-                        <h2>SHIFT SUPERVISOR</h2>
-                    </div>
-                </div>
-                <div id="box2_5_mini_2_4">
-                    <div>
-                        <h5>MANAGER</h5> <br>
-                        <h2>ASSISTANT MANAGER</h2>
-                    </div>
-                </div>
-            </div>
-            <div id="box2_5_mini_3"></div>
-        </div>
+  .box2_4{
+           border: 0.1px solid rgb(244, 241, 247);
+           width: 100%;
+           height: 650px;
+           /* border: 1px solid red; */
+           background-image: url("./images/map.PNG");
+        }
+  #box2_4_1{
+            background-color: #f8f7f5;
+            width: 22%;
+            height: 500px;
+            margin-left: 280px;
+            margin-top: 65px;
+            font-size: 25px;
+            font-weight:1000;
+            padding-left: 50px;
+  }
+ #country{
+       width: 79%;
+       border-radius: 10px;
+       padding: 5px;
+ }
+  #add  {
+          width: 76%;
+          border-radius: 10px;
+          padding: 5px;
+}
+#submit{
+       width: 40%;
+      height: 40px;
+      background-color: black;
+      color: white;
+      font-size: large;
+      border-radius: 18px;
 
-        <div class="box2_6">
-            <div id="box2_6_mini_1">
-                <br>
-                <h4>RESTAURANT</h4><br>
-                <h1>INTERVIEW PROCESS</h1><br>
-                <p>
-                    At KFC, we know your time is valuable and want to prepare you for what is next! See what happens
-                    after you fill out an <br>
-                    application for one of our Restaurant Opportunities. Note: Most KFC restaurants are operated by
-                    independent franchisees who<br>
-                    have their own hiring and benefits guidelines. These requirements may vary by location, and you’ll
-                    learn more when you meet <br>
-                    with the hiring manager.
-                </p>
-                <br>
-                <hr>
-            </div>
-            <div id="box2_6_mini_2">
-                <br>
-                <p>01</p>
-                <h3>APPLICATION</h3><br>
-                <P>Your application will be reviewed by the restaurant leader.</P>
-                <br><br><br>
-                <hr> <br><br><br>
+}
 
-                <p>02</p>
-                <h3>SCHEDULIING</h3><br>
-                <P>One of the restaurant leaders will reach out to schedule an interview!</P>
-                <br><br><br>
-                <hr> <br><br><br>
+ .box2_5{
+          /* border: 1px solid rgb(14, 228, 121); */
+          width: 100%;
+          height: 800px;
+          margin-top: 100px;
+       }
+  #box2_5_mini_1{
+                 /* border: 1px solid purple; */
+                 width: 60%;
+                 height: 100px;
+                 margin-left: 300px;
+  }
 
-                <p>03</p>
-                <h3>INTERVIEW</h3><br>
-                <P>You will meet with a restaurant leader to go over your experience and learn more about the job
-                    opening. Don't be afraid to ask questions! </P>
-                <br><br><br>
-                <hr> <br><br><br>
-            </div>
-        </div>
-        <div class="box2_7">
-            <div id="box2_7_1">
-                <img width="100%"
-                    src="https://images.ctfassets.net/9tka4b3550oc/5f3MpBw3YhmwFQ2XrAWtaD/ccce597b56b28b5aa8f6a0b56f940a13/banner-quote-team-member.jpg?q=75&w=580"
-                    alt="" />
-            </div>
-            <div id="box2_7_2">
-                <h1> "I AM EXPERIENCING NEW <br>
-                    THINGS, LEARNING NEW <br>
-                    SKILLS AND MEETING <br>
-                    NEW PEOPLE. AND I'M <br>
-                    WORKING AT A GREAT <br>
-                    PLACE WITH GREAT <br>
-                    PEOPLE."
-                </h1>
-                <br> <br>
-                <p>Luis, Team Member, Overland Park, KS</p>
+ #box2_5_mini_2{
+               /* border: 1px solid rgb(45, 0, 128); */
+               width: 84%;
+               height: 555px;
+               display: flex;
+               margin-left: 300px;
+               color: white;
+               font-weight:bolder;
+            }
 
-            </div>
-        </div>
-        <div class="box2_8">
-            <div id="box2_8_1">
-                <h5>HOW WE'RE TAKING ACTION</h5>
-                <br>
-                <h1>RESTAUTANT SAFETY</h1>
-            </div>
-            <div id="box2_8_2">
-                <div id="box2_8_2_1">
+ #box2_5_mini_2_1{
+                 /* border: 1px solid red;  */
+                 width:25%;
+                 background-image: url("https://images.ctfassets.net/9tka4b3550oc/2gCjL7qPDqysOrgf3H9vAA/71487ce4241a79c730cafe3e4b312f84/cook.jpg?w=470");
+                 position: relative;
+              }
+    #box2_5_mini_2_1 > div {
+                            position: absolute;
+                            bottom: 52px;
+                             left: 16px;
+}
+ #box2_5_mini_2_2{
+                 /* border: 1px solid red; */
+                 width:25%;
+                 margin-left: 20px;
+                 background-image: url("https://images.ctfassets.net/9tka4b3550oc/3kEbJ6F1XBJUd1sa4dzhH2/2fce139fc9a6b19a4c4651062d811b16/kfc_customer_sevice.jpg?w=470");
+                 position: relative;
+              }
+ #box2_5_mini_2_2 > div {
+                      position: absolute;
+                      bottom: 52px;
+                      left: 16px;
+ }
+  #box2_5_mini_2_3{
+                  /* border: 1px solid red; */
+                  width:25%;
+                  margin-left: 20px;
+                  background-image: url("https://images.ctfassets.net/9tka4b3550oc/4xLm9Q4797pqf7HpmC4saD/5802b9d05723df5b29e017c1510d5a97/shift-supervisor.jpg?w=470");
+                  position: relative;
+              }
+#box2_5_mini_2_3 > div {
+                     position: absolute;
+                     bottom: 52px;
+                     left: 16px;
+}
+#box2_5_mini_2_4{
+                /* border: 1px solid red; */
+                width:25%;
+                margin-left: 20px;
+                background-image: url("https://images.ctfassets.net/9tka4b3550oc/4HnWhgDCm3rJh0vBgiTPI0/49e7a06a569b3bee25d3af2382795885/assistant-manager.jpg?w=470");
+                position: relative;
+              }
+#box2_5_mini_2_4 > div {
+                     position: absolute;
+                     bottom: 52px;
+                     left: 16px;
+}
+ #box2_5_mini_3{
+               /* border: 5px solid rgb(141, 221, 13); */
+               background-color: black;
+               width: 60%;
+               height: 3px;
+               margin-top: 35px;
+               margin-left: 300px;
+  }
 
-                    <img src="images\mask.PNG" alt="" />
-                    <h1>GLOVES & MASKS</h1>
+ .box2_6{
+           /* border: 5px solid rgb(30, 33, 43); */
+           width: 100%;
+           height: 800px;
 
-                    <br><br>
-                    <hr>
-                    <br><br>
-                    <p>KFC team members wear gloves and masks at all times,<br>
-                        and receive daily wellnes checks to ensure they are <br>
-                        healthy and symtoms-free.</p>
+       }
 
-                </div>
-                <div id="box2_8_2_1">
-                    <img src="images\plexi.PNG" alt="" />
-                    <h1>PLEXIGLASS</h1>
-                    <br><br>
-                    <hr>
-                    <br><br>
-                    <p>KFC has installed plexiglass shields at cash registers as <br>
-                        well as hightly encouraging contactless payment.</p>
+ #box2_6_mini_1{
+             /* border: 5px solid rgb(11, 14, 185); */
+             width: 60%;
+             height: 220px;
+             margin-left: 300px;
 
-                </div>
-                <div id="box2_8_2_1">
-                    <img src="images\contact.PNG" alt="" />
-                    <h1>CONTACTLESS DELIVERY</h1>
-                    <br><br>
-                    <hr>
-                    <br><br>
-                    <p>KFC provides contactless delivery and tamper-evident
-                        packing seals for every meal prepared in our kitchens. <br></p>
-                </div>
-            </div>
-            <div id="box2_8_3"></div>
-        </div>
+          }
 
-        <div class="box2_9">
-            <div id="box2_9_1">
-                <img width="100%"
-                    src="https://images.ctfassets.net/9tka4b3550oc/5IMyL8KmhVGl6fo77t7BT/041fbb0005c5862d06087cf2a456a8d6/banner-quote-safety.jpg?q=75&w=580"
-                    alt="" />
-            </div>
-            <div id="box2_9_2">
-                <h1> "WORKING TOGETHER, WE <br>
-                    CAN LIMIT THE SPREAD OF <br>
-                    COVID-19 WHILE OFFERING <br>
-                    CONVENIENT, AFFORDABLE
-                    <br>FOOD IN A LOW CONTACT <br>
-                    ENVIRONMENT."
-                </h1>
-                <br> <br>
-                <p>Luis, Team Member, Overland Park, KS</p>
+ #box2_6_mini_2{
+                  /* border: 5px solid rgb(185, 11, 40); */
+                  width:  60%;
+                  height: 550px;
+                  margin-left: 300px;
+            }
+  p{
+      color: grey;
+  }
+  h5,h1,h3{
+            font-weight: bolder;
+  }
 
-            </div>
-        </div>
+  .box2_7{
+           /* border: 5px solid rgb(18, 53, 167); */
+           width: 60%;
+           height: 570px;
+           margin-left: 300px;
+           display :flex;
+  }
+ #box2_7_1 {
+          /* border: 1px solid rgb(29, 223, 103); */
+          width: 50%;
+          height: 570px;
+ }
+ #box2_7_2{
+         /* border: 1px solid rgb(29, 223, 103); */
+         width: 50%;
+         height: 500px;
+         margin-left:80px;
+         margin-top: 60px;
+ }
 
-        <div class="box2_10">
-            <div>
-                <img src="images\line.PNG" alt="" />
-                <br><br>
-                <p>EXOPLORE</p> <br><br>
-                <h1>CORPORATE CAREERS</h1><br>
-                <p>At our Restaurant Support Center, in Louisville,<br>
-                    Ky, we support our brand in every aspect of the <br>
-                    business! We take great pride in serving our <br>
-                    franchies, restaurant teams and guests.
-                    <br><br>
-                    We invite you to learn more about how you can be <br>
-                    your best seif, make a difference, and have fun at <br>
-                    KFC Corporate.
-                </p>
-                <br><br>
-                <input type="submit" id="learn" value="Learn More">
+ .box2_8{
+         /* border: 1px solid rgb(29, 223, 103); */
+         width:75%;
+         height: 550px;
+         margin-left: 300px;
+       }
+ #box2_8_1{
+          /* border: 1px solid rgb(29, 223, 103); */
+          width:100%;
+          height: 90px;
+          margin-top: 35px;
+          margin-left:130px ;
+        }
+#box2_8_2{
+          /* border: 1px solid rgb(29, 42, 223); */
+          width:100%;
+          height: 355;
+          display:flex;
+          margin-left:130px ;
+      }
 
-            </div>
-        </div>
+#box2_8_2_1{
+             /* border: 1px solid rgb(29, 223, 87); */
+             width:100%;
+             height: 300px;
+             padding: 20px;
+             margin-right: 25px;
+             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+             background-color: #f8f7f5
 
-        <div class="box2_11">
-            <i>
-                References to minimum age requirements are not applicable in any state where state or local law would
-                <br> prohibit a minimum age. Applicants must be able to lawfully perform all job tasks related to the
-                role during
-                <br>all restaurant operating hours.
-            </i>
-        </div>
-        <div class="box2_12">
-            <div id="box2_12_1"> <br><br>
-                <h3>EXPLORE CAREER PATHS </h3>
-            </div>
-            <div id="box2_12_2">
-                <div id="box2_12_2_1">
-                    <div>
-                        <h2>KFC CULTURE</h2>
-                    </div>
-                </div>
-                <div id="box2_12_2_2">
-                    <div>
-                        <h2>RESTAUTANT CAREER GROWTH</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ------------------------------------------------------------------------Bottom Panel----------------------------------------------- -->
-    <div id="container44">
-        <p>Calorie Statement</p>
-        <p>2,000 calories a day is used for general nutrition advice, but calorie needs vary. Additional nutrition
-            information available upon request in-store and on kfc.com. Prices, participation, and product availability
-            may vary.</p>
-        <br>
-        <p>Pepsi, Pepsi Globe, Mtn Dew, Mtn Dew Sweet Lightning, Sierra Mist are registered trademarks of PepsiCo, Inc.
-            Dr Pepper is a registered trademark of Dr Pepper/Seven Up, Inc.</p>
-        <br>
-        <div id="boxes44">
-            <div class="cards44">
-                <img src="images\Screenshot (74).jpg">
-            </div>
-            <div class="cards4">
-                <ul>
-                    <p>KFC Food</p>
-                    <li>Menu</li>
-                    <li>Full Nutrition Guide</li>
-                    <li>Nutrition Calculator</li>
-                    <li>Food Allergies & Sensitivities</li>
-                </ul>
-            </div>
-            <div class="cards44">
-                <ul>
-                    <p>Company</p>
-                    <li>About KFC</li>
-                    <li>How We Make Chicken</li>
-                    <li>KFC Foundation</li>
-                    <li>Company Responsibility</li>
-                    <li>Franchise a KFC</li>
-                    <li>Resposible Disclosure</li>
-                    <li>KFC Newsroom</li>
-                </ul>
-            </div>
-            <div class="cards44">
-                <ul>
-                    <p>Career</p>
-                    <li>Restaurant Careers</li>
-                    <li>Corporate Careers</li>
-                    <li>Culture</li>
-                    <li>Growth</li>
-                </ul>
-            </div>
-            <div class="cards44">
-                <ul>
-                    <p>Resources</p>
-                    <li>FAQs</li>
-                    <li>Contact Us</li>
-                    <li>KFC App</li>
-                </ul>
-            </div>
-            <div class="cards44">
-                <ul>
-                    <p>Find a KFC</p>
-                    <li>Find a KFC</li>
-                </ul>
-            </div>
-        </div>
-        <div id="lastbox44">
-            <div class="section44">
-                <div>
-                    <p>Privacy Policy </p>
-                </div>
-                <div>
-                    <p>Update 12/2021</p>
-                </div>
-                <div>
-                    <p>Terms Of Use</p>
-                </div>
-                <div>
-                    <p>Our Cookies & Ads</p>
-                </div>
-                <div>
-                    <p>Do Not Sell My Personal Information</p>
-                </div>
-            </div>
-            <div>
-                <p>Copyright © KFC Corporation 2022 All Rights Reserved</p>
-            </div>
-            <div style="display: flex;">
-                <i class="fab fa-instagram" style="margin-right: 3px;"></i>
-                <i class="fab fa-facebook" style="margin-right: 3px;"></i>
-                <i class="fab fa-twitter"></i>
-            </div>
-        </div>
-        <div style="border-left:gray;">
-            <p> Asessibility Statement</p>
-        </div>
-    </div>
-</body>
 
-</html>
+      }
+#box2_8_3{
+      /* border: 5px solid rgb(141, 221, 13); */
+      background-color: black;
+      width: 70%;
+      height: 3px;
+      margin-top: 45px;
+      margin-left: 170px;
+}
+
+.box2_9{
+       /* border: 5px solid rgb(18, 53, 167); */
+       width: 60%;
+       height: 528px;
+       margin-left: 300px;
+       display :flex;
+       margin-top: 45px;
+}
+#box2_9_1 {
+        /* border: 1px solid rgb(29, 223, 103); */
+        width: 50%;
+        height: 528px;
+}
+#box2_9_2{
+       /* border: 1px solid rgb(29, 223, 103); */
+       width: 50%;
+       height: 400px;
+       margin-left:80px;
+       margin-top: 60px;
+ }
+
+ #box2_9_2{
+        /* border: 1px solid rgb(29, 223, 103); */
+        width: 50%;
+        height: 400px;
+        margin-left:80px;
+        margin-top: 60px;
+       }
+.box2_10{
+          border: 0.1px solid rgb(233, 232, 231);
+          width: 100%;
+          height: 950px;
+          margin-top: 25px;
+          background-image: url("https://images.ctfassets.net/9tka4b3550oc/51fyOnDnrgeXWqP1B2Zsih/7d9b6da24b0c8ba9e84fcb2342539bda/banner-card-corporate-careers.jpg?q=75&w=1900");
+        }
+.box2_10 > div{
+              background-color: #f8f7f5;
+              width: 22%;
+              height: 500px;
+              margin-left: 1000px;
+              margin-top: 200px;
+              padding: 0 50px;
+    }
+#learn{
+      width: 40%;
+     height: 40px;
+     background-color: red;
+     color: white;
+     font-weight: bolder;
+     border-radius: 18px;
+}*
+.box2_11{
+          /* border: 1px solid rgb(7, 23, 116); */
+          width: 55%;
+          height: 150px;
+          padding: 100px 0px  0 25px;
+          font-size: large;
+          font-weight: bolder;
+          letter-spacing: 1px;
+          margin-left: 500px;
+          color: rgb(90, 85, 85);
+        }
+.box2_12{
+          /* border:1px solid rgb(50, 18, 167); */
+          width: 100%;
+          height: 560px;
+          /* margin-left: 500px; */
+        }
+#box2_12_1{
+          /* border: 1px solid rgb(18, 167, 43); */
+          width: 98%;
+          height: 100px;
+          margin-left: 300px;
+        }
+ #box2_12_2{
+              /* border: 1px solid rgb(40, 33, 58); */
+              width: 60%;
+              height: 380px;
+              display: flex;
+              margin-left: 300px;
+              color: white;
+            }
+#box2_12_2_1{
+          /* border: 1px solid rgb(58, 18, 167); */
+          width: 50%;
+          height: 380px;
+          background: url("https://images.ctfassets.net/9tka4b3550oc/4Ib0hIQA7tdYuV3oBHHzqY/e1ad0a11c544279e1895f42eb72df68f/routing-careers-culture.jpg?w=640");
+          position: relative;
+          margin-right: 35px;
+
+      }
+#box2_12_2_1> div {
+              /* position: absolute; */
+              bottom: 150px;
+              left: 220px;
+
+}
+
+
+#box2_12_2_2{
+           /* border: 1px solid rgb(58, 18, 167); */
+           width: 50%;
+           height: 380px;
+           background: url("https://images.ctfassets.net/9tka4b3550oc/50tkcHRFTh0VgPIlhPRpIF/d28c820fc7f7bbbd26ae6ad1ad832cbe/routing-careers-growth.jpg?w=640")no-repeat;
+           background-size: cover;
+           position: relative;
+
+      }
+#box2_12_2_2> div {
+              position: absolute;
+              bottom: 150px;
+              left: 75px;
+}
+#box2_12_2_1> div >h2{
+        margin: 40% 30%;
+}
+ /* --------------------------------------------------------------bottom panel */
+ #container44 {
+      background-color: rgb(32, 33, 36);
+      padding: 50px 250px;
+      text-align: justify;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 50px;
+  }
+
+  #container44 p {
+      width: 70%;
+      font-size: 12px;
+      color: white;
+  }
+
+  #boxes44 {
+      display: flex;
+      margin: auto;
+      margin-top: 50px;
+      /* border: 1px solid red; */
+  }
+
+  ul {
+      list-style-type: none;
+  }
+
+  li {
+      font-size: 12px;
+      margin-bottom: 7px;
+  }
+
+  li:hover {
+      text-decoration: underline;
+  }
+
+  .cards44 {
+      width: 18%;
+      /* background-color: yellow; */
+  }
+
+  ul p {
+      font-size: 14px;
+  }
+
+  #lastbox44 {
+      display: flex;
+      /* border: 1px solid green; */
+      height: 50px;
+      margin-top: 60px;
+  }
+
+  .section44 {
+      display: flex;
+      /* border: 1px solid red; */
+      width: 75%;
+      margin-right: 80px;
+  }
+
+  .section44>div:hover {
+      text-decoration: underline;
+  }
+
+  .section44>div {
+      width: 19%;
+      margin-right: 5px;
+      border-right: 1px solid gray;
+  }
+
+  .section44>:nth-child(5) {
+      border-right: none;
+  }
